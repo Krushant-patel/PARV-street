@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <div class="parv-logo-home">
+            <img src="../assets/image/Parvlogo.png" width="100" height="80" />
+        </div>
+        <div class="cart">
+            <button id="viewCart">View Cart (<span id="cartCount">0</span>)</button>
+        </div>
+        <!-- Hamburger Button -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+         <!-- Sidebar Menu -->
+         <div class="sidebar" id="sidebar">
+            <span class="closebtn" onclick="toggleMenu()">×</span>
+            <ul>
+                <li><a href="../code/home.html">Home</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Special Collection</a></li>
+                <li><a href="#">Watches</a></li>
+                <li><a href="#">Sunglasses</a></li>
+                <li><a href="#">Features Collection</a></li>
+                <li><a href="#">Gifts & Decors</a></li>
+
+            </ul>
+        </div>
+    </header>
+
+    <div class="product-list">
+
+    <div class="product">
+        <img src="../assets/image/06 Aditi Budhathoki Blue Sequins Work Net Party Wear Lehenga Choli.webp" width="248" height="396"/>
+        <h3>Product 1</h3>
+            <p>Price: ₹.179</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+            <div class="product">
+        <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+        <h3>Product 1</h3>
+            <p>Price: ₹.179</p>
+        <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="../assets/image/All functional Pink Lehenga With Top.jpg" width="248" height="396"/>
+    <h3>Product 1</h3>
+        <p>Price: ₹.179</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+</div>
+
+<div id="cartModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Your Cart</h2>
+        <div id="cartItems"></div>
+       
+    </div>
+</div>
+</div>
+<div class="pagination">
+    <div class="active">
+    <a href="#">&laquo;</a>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <span>...</span>
+    <a href="#">67</a>
+    <a href="#">68</a>
+    <a href="#">69</a>
+    <a href="#">Next &rarr;</a>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

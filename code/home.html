@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parvstreet</title>
+    <link rel="icon" type="image/png" href="../assets/image/Parvlogo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="parv-logo-home">
+            <img src="../assets/image/Parvlogo-removebg.png" width="200" height="70"/>
+        </div>
+        <div class="cart">
+            <button id="viewCart">View Cart (<span id="cartCount">0</span>)</button>
+        </div>
+        <!-- Hamburger Button -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <!-- Sidebar Menu -->
+        <div class="sidebar" id="sidebar">
+            <span class="closebtn" onclick="toggleMenu()">×</span>
+            <ul>
+                <li><a href="../code/home.html">Home</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Special Collection</a></li>
+                <li><a href="#">Watches</a></li>
+                <li><a href="#">Sunglasses</a></li>
+                <li><a href="#">Features Collection</a></li>
+                <li><a href="#">Gifts & Decors</a></li>
+
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="product-list">
+
+        <div class="product">
+            <a style="text-decoration: none;" href="../code/Lehenga-Choli.html">
+                <img src="../assets/image/Lehenga-Choli-home.png" width="248" height="396" />
+                <br>
+                <h2 style="color: rgb(0, 0, 0) ; text-decoration: none;">Lehenga Choli</h2>
+            </a>
+        </div>
+
+        <div class="product">
+            <a style="text-decoration: none;" href="../code/sarees-Parv.html">
+                <img src="../assets/image/sarees-home.jpg" width="248" height="396" />
+                <h2 style="display: block; color: rgb(0,0,0);"> Sarees </h2>
+            </a>
+
+        </div>
+
+        <div class="product">
+            <a style="text-decoration: none;" href="../code/indian-sarees.html">
+                <img src="../assets/image/indian-saree-home.jpg" width="248" height="396" />
+                <h2 style="display: block; color: rgb(0,0,0);">indian-sarees</h2>
+
+            </a>
+        </div>
+
+        <div class="product">
+            <a style="text-decoration: none;" href="../code/Western-Wear.html">
+                <img src="../assets/image/Western-Wear-home.png " width="248" height="396" />
+                <h2 style="display: block; color: rgb(0,0,0);">Western Wear</h2>
+            </a>
+        </div>
+    </div>
+    <!-- Modal for Cart -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Your Cart</h2>
+            <div id="cartItems"></div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
